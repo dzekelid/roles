@@ -33,7 +33,7 @@ apis:
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/akamai/user-admin-v1-accounts-accountid-roles-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/akamai/user-admin-v1-accounts-accountid-roles-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
