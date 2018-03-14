@@ -26,7 +26,7 @@ apis:
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/aws-security-token-service/action-assumerolewithwebidentity-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/aws-security-token-service/action-decodeauthorizationmessage-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/STS/latest/APIReference/
