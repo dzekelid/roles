@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateRole&k=1:
+  /?Action=CreateRole:
     get:
       summary: ' Create Role '
       description: Creates a new role for your AWS account
