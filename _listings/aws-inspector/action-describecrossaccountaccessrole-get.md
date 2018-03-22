@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCrossAccountAccessRole&k=1:
+  /?Action=DescribeCrossAccountAccessRole:
     get:
       summary: ' Describe Cross Account Access Role '
       description: |-
