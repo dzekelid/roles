@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterCrossAccountAccessRole&k=1:
+  /?Action=RegisterCrossAccountAccessRole:
     get:
       summary: ' Register Cross Account Access Role '
       description: |-
