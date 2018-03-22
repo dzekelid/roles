@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteRole&k=1:
+  /?Action=DeleteRole:
     get:
       summary: ' Delete Role '
       description: Deletes the specified role
