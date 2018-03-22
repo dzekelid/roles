@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListRoles&k=1:
+  /?Action=ListRoles:
     get:
       summary: ' List Roles '
       description: Lists the IAM roles that have the specified path prefix
