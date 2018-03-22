@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetRole&k=1:
+  /?Action=GetRole:
     get:
       summary: ' Get Role '
       description: |-
