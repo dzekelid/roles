@@ -15,9 +15,9 @@ tags:
 - Data Warehouse
 - Data
 - Amazon Web Services
-created: "2018-03-14"
-modified: "2018-03-14"
-url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/aws-redshift/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-redshift/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Amazon Redshift API
@@ -30,7 +30,7 @@ apis:
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/aws-redshift/action-modifyclusteriamroles-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-redshift/action-modifyclusteriamroles-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
