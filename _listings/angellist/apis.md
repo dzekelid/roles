@@ -19,9 +19,9 @@ tags:
 - Directory
 - Business
 - Angellist API Stack
-created: "2018-03-14"
-modified: "2018-03-14"
-url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/angellist/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AngelList
@@ -33,7 +33,7 @@ apis:
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/roles/master/_listings/angellist/startup-roles-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/startups-startup-id-roles-get.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
