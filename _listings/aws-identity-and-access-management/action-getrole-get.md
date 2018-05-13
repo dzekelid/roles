@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Role
   version: 1.0.0
+  description: |-
+    Retrieves information about the specified role, including the role's path, GUID, ARN,
+          and the role's trust policy that grants permission to assume the role.
 schemes:
 - http
 produces:
