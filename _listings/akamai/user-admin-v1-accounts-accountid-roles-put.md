@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Modify a Role
+  description: Modify a Role
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Modify a Role
       operationId: useradminv1accountsaccountidroles
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
