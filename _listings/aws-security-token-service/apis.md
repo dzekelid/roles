@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-decodeauthorizationmessage-get.md
-- name: AWS Security Token Service API Assume Role With S A M L
+- name: AWS Security Token Service API Assume Role With Web Identity
   description: |-
     Returns a set of temporary security credentials for users who have been authenticated
-          via a SAML authentication response.
+          in a mobile or web application with a web identity provider, such as Amazon Cognito, Login with Amazon,
+          Facebook, Google, or any OpenID Connect-compatible identity provider.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
   humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   baseURL: http:://{host}//
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-assumerolewithsaml-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-assumerolewithwebidentity-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/STS/latest/APIReference/
