@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-inspector/action-registercrossaccountaccessrole-get.md
-- name: AWS Inspector API Describe Cross Account Access Role
+- name: AWS Inspector API Register Cross Account Access Role
   description: |-
-    Describes the IAM role that enables Amazon Inspector to access your AWS
-             account.
+    Registers the IAM role that Amazon Inspector uses to list your EC2 instances at the
+             start of the assessment run or when you call the.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: http:://{host}//
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-inspector/action-describecrossaccountaccessrole-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-inspector/action-registercrossaccountaccessrole-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
