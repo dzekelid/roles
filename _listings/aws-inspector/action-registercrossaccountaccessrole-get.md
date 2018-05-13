@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Register Cross Account Access Role
   version: 1.0.0
+  description: |-
+    Registers the IAM role that Amazon Inspector uses to list your EC2 instances at the
+             start of the assessment run or when you call the.
 schemes:
 - http
 produces:
