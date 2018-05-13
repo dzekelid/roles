@@ -42,9 +42,9 @@ apis:
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/startups-startup-id-roles-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/startup-roles-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/startups-startup-id-roles-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/angellist/startup-roles-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
