@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Security Token Service API
+  title: AWS Security Token Service API Assume Role With Web Identity
   version: 1.0.0
+  description: |-
+    Returns a set of temporary security credentials for users who have been authenticated
+          in a mobile or web application with a web identity provider, such as Amazon Cognito, Login with Amazon,
+          Facebook, Google, or any OpenID Connect-compatible identity provider.
 schemes:
 - http
 produces:
