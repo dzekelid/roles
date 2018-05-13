@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Security Token Service API
+  title: AWS Security Token Service API Assume Role With S A M L
   version: 1.0.0
+  description: |-
+    Returns a set of temporary security credentials for users who have been authenticated
+          via a SAML authentication response.
 schemes:
 - http
 produces:
