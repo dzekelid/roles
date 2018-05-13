@@ -31,15 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-identity-and-access-management/action-listroles-get.md
-- name: AWS Identity and Access Management API Delete Role
-  description: Deletes the specified role.
+- name: AWS Identity and Access Management API Get Role
+  description: |-
+    Retrieves information about the specified role, including the role's path, GUID, ARN,
+          and the role's trust policy that grants permission to assume the role.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-identity-and-access-management/action-deleterole-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-identity-and-access-management/action-getrole-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
