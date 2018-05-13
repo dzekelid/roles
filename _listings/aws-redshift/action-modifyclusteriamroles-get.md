@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Modify Cluster Iam Roles
   version: 1.0.0
+  description: |-
+    Modifies the list of AWS Identity and Access Management (IAM) roles that can be
+                used by the cluster to access other AWS services.
 schemes:
 - http
 produces:
