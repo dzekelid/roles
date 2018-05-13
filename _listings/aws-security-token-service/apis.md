@@ -27,18 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-decodeauthorizationmessage-get.md
-- name: AWS Security Token Service API Assume Role
+- name: AWS Security Token Service API Assume Role With S A M L
   description: |-
-    Returns a set of temporary security credentials (consisting of an access key ID, a
-          secret access key, and a security token) that you can use to access AWS resources that you
-          might not normally have access to.
+    Returns a set of temporary security credentials for users who have been authenticated
+          via a SAML authentication response.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
   humanURL: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
   baseURL: http:://{host}//
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-assumerole-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/aws-security-token-service/action-assumerolewithsaml-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/STS/latest/APIReference/
