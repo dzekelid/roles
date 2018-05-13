@@ -21,15 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post Me Roles
-  description: Creates an employee role you can then assign to employees.
+- name: Square Connect API Get Me Roles
+  description: Provides summary information for all of a business's employee roles.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Roles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/square/me-roles-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/square/me-roles-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/square/me-roles-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
