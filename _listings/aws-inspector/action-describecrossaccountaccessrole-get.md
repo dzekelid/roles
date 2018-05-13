@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Describe Cross Account Access Role
   version: 1.0.0
+  description: |-
+    Describes the IAM role that enables Amazon Inspector to access your AWS
+             account.
 schemes:
 - http
 produces:
