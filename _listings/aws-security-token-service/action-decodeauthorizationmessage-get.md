@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Security Token Service API
+  title: AWS Security Token Service API Decode Authorization Message
   version: 1.0.0
+  description: |-
+    Decodes additional information about the authorization status of a request from an
+          encoded message returned in response to an AWS request.
 schemes:
 - http
 produces:
