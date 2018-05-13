@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Create Role
   version: 1.0.0
+  description: Creates a new role for your AWS account.
 schemes:
 - http
 produces:
