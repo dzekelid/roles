@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Security Token Service API
+  title: AWS Security Token Service API Assume Role
   version: 1.0.0
+  description: |-
+    Returns a set of temporary security credentials (consisting of an access key ID, a
+          secret access key, and a security token) that you can use to access AWS resources that you
+          might not normally have access to.
 schemes:
 - http
 produces:
