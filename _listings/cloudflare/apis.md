@@ -1,52 +1,59 @@
 ---
 name: CloudFlare
-description: 'CloudFlare, Inc. is a U.S. company that provides a content delivery
-  network and distributed domain name server services, sitting between the visitor
-  and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
-  Its network protects, speeds up, and improves availability for a website or mobile
-  application with a change in DNS. '
+x-slug: cloudflare
+description: CloudFlare, Inc. is a U.S. company that provides a content delivery network
+  and distributed domain name server services, sitting between the visitor and the
+  CloudFlare users hosting provider, acting as a reverse proxy for websites. Its network
+  protects, speeds up, and improves availability for a website or mobile application
+  with a change in DNS.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Partners
-- My API Stack
-- Encryption
-- DNS New
-- DNS
-- CDN
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/apis.yaml
+tags: Roles
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: CloudFlare Get all available roles for an organization
+  x-api-slug: cloudflare
+  description: Get all available roles for an organization
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https://///organizations/:organization_identifier/roles
+  tags: Organization Roles
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/organizationsorganization-identifierroles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/organizationsorganization-identifierroles-get-openapi.md
+- name: CloudFlare Get information about a specific role for an organization
+  x-api-slug: cloudflare
+  description: Get information about a specific role for an organization
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https://///organizations/:organization_identifier/roles/:identifier
+  tags: Organization Roles
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/organizationsorganization-identifierrolesidentifier-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/organizationsorganization-identifierrolesidentifier-get-openapi.md
+- name: CloudFlare
+  x-api-slug: cloudflare
+  description: CloudFlare, Inc. is a U.S. company that provides a content delivery
+    network and distributed domain name server services, sitting between the visitor
+    and the CloudFlare users hosting provider, acting as a reverse proxy for websites.
+    Its network protects, speeds up, and improves availability for a website or mobile
+    application with a change in DNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: Roles
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/cloudflare/openapi.md
 x-common:
-- type: x-blog
-  url: https://blog.cloudflare.com/
-- type: x-blog-rss
-  url: http://blog.cloudflare.com/rss/
-- type: x-developer
-  url: https://www.cloudflare.com/docs/client-api.html
-- type: x-github
-  url: https://github.com/cloudflare
-- type: x-partners
-  url: https://www.cloudflare.com/partners/
-- type: x-pricing
-  url: https://www.cloudflare.com/plans/
-- type: x-privacy
-  url: https://www.cloudflare.com/security-policy
-- type: x-security
-  url: https://www.cloudflare.com/security-policy/
-- type: x-terms-of-service
-  url: https://www.cloudflare.com/terms/
-- type: x-transparency-report
-  url: https://www.cloudflare.com/transparency/
-- type: x-twitter
-  url: https://twitter.com/CloudFlare
-- type: x-website
-  url: https://www.cloudflare.com
 - type: x-blog
   url: https://blog.cloudflare.com/
 - type: x-blog-rss
