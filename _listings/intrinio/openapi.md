@@ -4,7 +4,7 @@ x-collection-name: Intrinio
 x-complete: 1
 info:
   title: Intrinio
-  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors-the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon-the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio-basic-authentication-is-administered-over-https-responses-are-delivered-in-json-format
+  description: through-our-intrinio-data-marketplace-we-offer-a-wide-selection-of-financial-data-feeds-sourced-by-our-own-proprietary-processes-as-well-as-from-many-data-vendors--the-primary-application-of-the-intrinio-api-is-for-use-in-thirdparty-applications-and-integrations-or-for-endusers-utilizing-the-excel-addin-and-google-sheets-addon--the-intrinio-api-uses-https-verbs-and-a-restful-endpoint-structure-which-makes-it-easy-to-request-data-from-intrinio--basic-authentication-is-administered-over-https--responses-are-delivered-in-json-format-
   version: 1.0.0
 host: api.intrinio.com
 basePath: /
@@ -26,11 +26,11 @@ paths:
       parameters:
       - in: query
         name: company
-        description: ' the identifier for the specified security or company: '
+        description: 'the identifier for the specified security or company:'
         type: string
       - in: query
         name: identifier
-        description: ' the Intrinio executive identifier'
+        description: the Intrinio executive identifier
         type: string
       responses:
         200:

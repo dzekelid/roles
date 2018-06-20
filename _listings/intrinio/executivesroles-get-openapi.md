@@ -28,11 +28,11 @@ paths:
       parameters:
       - in: query
         name: company
-        description: ' the identifier for the specified security or company: '
+        description: 'the identifier for the specified security or company:'
         type: string
       - in: query
         name: identifier
-        description: ' the Intrinio executive identifier'
+        description: the Intrinio executive identifier
         type: string
       responses:
         200:

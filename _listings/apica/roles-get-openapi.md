@@ -17,7 +17,7 @@ paths:
     ' get ':
       summary: Get Roles
       description: Return user roles
-      operationId: ""
+      operationId: getRoles
       x-api-path-slug: roles-get
       responses:
         200:

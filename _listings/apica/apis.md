@@ -1,25 +1,21 @@
 ---
 name: Apica
 x-slug: apica
-description: Apica provides the most effective technology for optimizing the performance
-  of cloud and mobile applications. Apica offers companies and developers alike easy-to-use,
-  cloud-based load testing and web performance monitoring tools to test applications
-  for maximum capacity, daily performance, improved load times, and protection from
-  peak loads. For more information about how Apica is providing the highest standard
-  for cloud and mobile application performance management.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apica-logo.png
+description: Apica???s performance testing and monitoring solutions provide critical
+  peak performance data and 24/7 monitoring of applications and sites around the world.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
 x-kinRank: "7"
-x-alexaRank: ""
+x-alexaRank: "827487"
 tags: Roles
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Roles API Get Roles
   x-api-slug: roles-api
   description: Return user roles
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apica-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: '://///roles '
   tags: Roles
@@ -30,13 +26,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/roles-get-openapi.md
 - name: Roles API
   x-api-slug: roles-api
-  description: Apica provides the most effective technology for optimizing the performance
-    of cloud and mobile applications. Apica offers companies and developers alike
-    easy-to-use, cloud-based load testing and web performance monitoring tools to
-    test applications for maximum capacity, daily performance, improved load times,
-    and protection from peak loads. For more information about how Apica is providing
-    the highest standard for cloud and mobile application performance management.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apica-logo.png
+  description: Apica???s performance testing and monitoring solutions provide critical
+    peak performance data and 24/7 monitoring of applications and sites around the
+    world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: :///
   tags: Roles
@@ -48,8 +41,20 @@ x-common:
   url: https://www.apicasystem.com/blog/
 - type: x-blog-rss
   url: https://www.apicasystem.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/apica
 - type: x-developer
   url: http://api-wpm.apicasystem.com/v3/help
+- type: x-documentation
+  url: https://api-wpm.apicasystem.com/v3/Help
+- type: x-email
+  url: sales@apicasystems.com
+- type: x-email
+  url: swesales@apicasystems.com
+- type: x-email
+  url: support@apicasystems.com
+- type: x-email
+  url: operations@apicasystem.com
 - type: x-github
   url: https://github.com/ApicaSystem
 - type: x-twitter

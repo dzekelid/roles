@@ -10,15 +10,15 @@ description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Mi
   insights from the Microsoft cloud (for commercial users).'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Roles
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Microsoft Graph API List Directory Roles
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph List Directory Roles
+  x-api-slug: microsoft-graph
   description: List directoryRoles List the directory roles that are activated in
     the tenant.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -30,8 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/microsoft-graph/directoryroles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/microsoft-graph/directoryroles-get-openapi.md
-- name: Microsoft Graph API
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph
+  x-api-slug: microsoft-graph
   description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
     cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
     Graph simplifies queries that would otherwise be more complex. You can use Microsoft
