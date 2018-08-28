@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Respoke
 x-complete: 0
 info:
-  title: Respoke REST API Roles
+  title: Respoke Roles
   description: Create roleId and roleName for creating tokens.
   termsOfService: https://www.respoke.io/files/respoke-tos-20141007.pdf
   version: v1

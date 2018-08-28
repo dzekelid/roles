@@ -15,40 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /organizations/{org_name}/userroles:
-    get:
-      summary: Get Organizations Name Userroles
-      description: Gets a list of roles available to users in an organization.
-      operationId: getOrganizationsOrgNameUserroles
-      x-api-path-slug: organizationsorg-nameuserroles-get
-      parameters:
-      - in: path
-        name: org_name
-        description: Mention the organization name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizations
-      - Userroles
-    post:
-      summary: Post Organizations Name Userroles
-      description: Creates a role in an organization.
-      operationId: postOrganizationsOrgNameUserroles
-      x-api-path-slug: organizationsorg-nameuserroles-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the content type
-      - in: path
-        name: org_name
-        description: Mention the organization name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizations
-      - Userroles
   /organizations/{org_name}/userroles/{role_name}:
     get:
       summary: Get Organizations Name Userroles Role Name
@@ -88,31 +54,6 @@ paths:
       - Organizations
       - Userroles
       - Role
-  /userroles:
-    get:
-      summary: Get Userroles
-      description: Gets a list of roles available to users.
-      operationId: getUserroles
-      x-api-path-slug: userroles-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Userroles
-    post:
-      summary: Post Userroles
-      description: Creates a role at global level.
-      operationId: postUserroles
-      x-api-path-slug: userroles-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the Content Type
-      responses:
-        200:
-          description: OK
-      tags:
-      - Userroles
   /userroles/{role_name}:
     get:
       summary: Get Userroles Role Name
@@ -144,44 +85,6 @@ paths:
       tags:
       - Userroles
       - Role
-  /users/{user_email}/userroles:
-    get:
-      summary: Get Users User Email Userroles
-      description: Gets roles for a user.
-      operationId: getUsersUserEmailUserroles
-      x-api-path-slug: usersuser-emailuserroles-get
-      parameters:
-      - in: path
-        name: user_email
-        description: Mention the user email
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - User
-      - Email
-      - Userroles
-    post:
-      summary: Post Users User Email Userroles
-      description: Associates a user with a organizational user role.
-      operationId: postUsersUserEmailUserroles
-      x-api-path-slug: usersuser-emailuserroles-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the content type
-      - in: path
-        name: user_email
-        description: Mention the user email
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - User
-      - Email
-      - Userroles
   /userroles/{role_name}/users:
     get:
       summary: Get Userroles Role Name Users
@@ -485,6 +388,50 @@ paths:
       - Role
       - Permissions
       - Get
+    delete:
+      summary: Delete Userroles Role Name Permissions Get
+      description: Deletes particular userrole permission for a resource at global
+        level
+      operationId: deleteUserrolesRoleNamePermissionsGet
+      x-api-path-slug: userrolesrole-namepermissionsget-delete
+      parameters:
+      - in: query
+        name: Content-Type
+        description: Specify content type
+      - in: query
+        name: path
+        description: Specify the resource path
+      - in: path
+        name: role_name
+        description: Mention the role name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Userroles
+      - Role
+      - Permissions
+      - Get
+  /userroles/{role_name}/resourcepermissions:
+    post:
+      summary: Post Userroles Role Name Resourcepermissions
+      description: Adds multiple resource permissions for resource at global level.
+      operationId: postUserrolesRoleNameResourcepermissions
+      x-api-path-slug: userrolesrole-nameresourcepermissions-post
+      parameters:
+      - in: query
+        name: Content-Type
+        description: Specify the Content Type
+      - in: path
+        name: role_name
+        description: Mention the role name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Userroles
+      - Role
+      - Resourcepermissions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

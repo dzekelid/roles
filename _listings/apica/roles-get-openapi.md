@@ -6,12 +6,14 @@ info:
   title: Roles API Get Roles
   version: 1.0.0
   description: Return user roles
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/roles ':
     ' get ':

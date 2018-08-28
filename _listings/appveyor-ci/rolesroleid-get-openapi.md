@@ -84,6 +84,17 @@ paths:
       tags:
       - Roles
       - RoleId
+    parameters:
+      summary: Parameters Roles Roleid
+      description: Parameters roles roleid.
+      operationId: parametersRolesRole
+      x-api-path-slug: rolesroleid-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Roles
+      - RoleId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

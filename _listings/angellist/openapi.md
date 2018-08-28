@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AngelList
 x-complete: 1
@@ -54,4 +53,3 @@ paths:
       - Startups
       - Businesses
       - Roles
----

@@ -7,36 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Roles
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Roles API Get Roles
-  x-api-slug: roles-api
+- name: Roles API - Get Roles
+  x-api-slug: roles-get
   description: Return user roles
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///roles '
-  tags: Roles
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/roles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/roles-get-openapi.md
-- name: Roles API
-  x-api-slug: roles-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Roles
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/roles/master/_listings/apica/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apica.stack.network
 - type: x-blog
   url: https://www.apicasystem.com/blog/
 - type: x-blog-rss

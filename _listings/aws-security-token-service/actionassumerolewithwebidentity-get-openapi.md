@@ -141,6 +141,24 @@ paths:
           description: OK
       tags:
       - Roles
+  /?Action=DecodeAuthorizationMessage:
+    get:
+      summary: Decode Authorization Message
+      description: |-
+        Decodes additional information about the authorization status of a request from an
+              encoded message returned in response to an AWS request.
+      operationId: decodeAuthorizationMessage
+      x-api-path-slug: actiondecodeauthorizationmessage-get
+      parameters:
+      - in: query
+        name: EncodedMessage
+        description: The encoded message that was returned with the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Roles
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

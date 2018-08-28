@@ -1,12 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: Mattermost
 x-complete: 1
 info:
-  title: Mattermost API Reference
-  description: -api-v4-is-stable-with-the-mattermost-server-4-0-release--api-v3-was-deprecated-on-january-16th-2018-and-scheduled-for-removal-in-mattermost-v5-0--details-heretagapiv3deprecation--looking-for-the-api-v3-reference-it-has-moved-herehttpsapi-mattermost-comv3-
-  termsOfService: https://about.mattermost.com/default-terms/
-  version: 4.0.0
+  title: Mattermost
+  version: 1.0.0
 host: your-mattermost-url.com
 basePath: /api/v4
 schemes:
@@ -122,4 +119,71 @@ paths:
       - Roles
       - By
       - Name
----
+  /roles/{role_id}:
+    get:
+      summary: Get a role
+      description: |-
+        Get a role from the provided role id.
+
+        ##### Permissions
+        Requires an active session but no other permissions.
+
+        __Minimum server version__: 4.9
+      operationId: get-a-role-from-the-provided-role-id-permissionsrequires-an-active-session-but-no-other-permissions-
+      x-api-path-slug: rolesrole-id-get
+      parameters:
+      - in: path
+        name: role_id
+        description: Role GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Role
+  /roles/name/{role_name}:
+    get:
+      summary: Get a role
+      description: |-
+        Get a role from the provided role name.
+
+        ##### Permissions
+        Requires an active session but no other permissions.
+
+        __Minimum server version__: 4.9
+      operationId: get-a-role-from-the-provided-role-name-permissionsrequires-an-active-session-but-no-other-permission
+      x-api-path-slug: rolesnamerole-name-get
+      parameters:
+      - in: path
+        name: role_name
+        description: Role Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Role
+  /roles/{role_id}/patch:
+    put:
+      summary: Patch a role
+      description: |-
+        Partially update a role by providing only the fields you want to update. Omitted fields will not be updated. The fields that can be updated are defined in the request body, all other provided fields will be ignored.
+
+        ##### Permissions
+        `manage_system` permission is required.
+
+        __Minimum server version__: 4.9
+      operationId: partially-update-a-role-by-providing-only-the-fields-you-want-to-update-omitted-fields-will-not-be-u
+      x-api-path-slug: rolesrole-idpatch-put
+      parameters:
+      - in: body
+        name: body
+        description: Role object to be updated
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: role_id
+        description: Role GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Role
